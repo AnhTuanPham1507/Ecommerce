@@ -1,0 +1,13 @@
+.page-item {
+    &.ACTIVE {
+        border: 1px solid $main-color;
+
+        background-color: $main-color;
+    }
+}
+
+.pagination {
+    @include flex(center, center);
+    width: 100%;
+    margin-top: 1rem;
+}
