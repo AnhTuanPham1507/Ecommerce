@@ -11,7 +11,7 @@
     }
 
     @include mobile {
-        margin-top: calc(#{header-mobile-height} * -1);
+        margin-top: calc(#{$header-mobile-height} * -1);
     }
 
     &__item {
