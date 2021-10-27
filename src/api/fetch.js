@@ -1,4 +1,4 @@
-export const url = 'http://5acb-27-3-233-127.ngrok.io/'
+export const url = 'https://ecommerce1507server.herokuapp.com/'
 
 export const getFetch = (path, token) => {
     const config = {
